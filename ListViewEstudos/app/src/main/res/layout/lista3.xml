@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView
+        android:choiceMode="multipleChoice"
+        android:id="@+id/lista3"
+        android:layout_above="@+id/buttons"
+        android:layout_alignParentTop="true"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"/>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnMarcados"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:layout_width="fill_parent"
+            android:onClick="btnMarcados_click"
+            android:text="Marcados"/>
+
+        <Button
+            android:id="@+id/btnDesmarcados"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:layout_width="fill_parent"
+            android:onClick="btnDesmarcados_click"
+            android:text="Desmarcados"/>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/white">
+	
+    
+    <TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:stretchColumns="0,1,2" >
+	    
+	    <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="#015488"
+	        android:orientation="vertical" >
+	        
+	        <TextView 
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:text="@string/nova_viagem"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:textStyle="bold"/>
+	        
+	    </LinearLayout>
+	    
+	    <TextView android:text="@string/nova_viagem_lbl_destino"
+	        android:textColor="@android:color/black"/>
+	        
+        <EditText 
+            android:id="@+id/destino"
+            android:inputType="text"/>
+        
+        <TextView android:text="@string/nova_viagem_lbl_tipo_da_viagem"
+            android:textColor="@android:color/black"/>
+        
+        <RadioGroup
+            android:id="@+id/tipoViagem"
+            android:orientation="horizontal">
+            
+            <RadioButton 
+                android:id="@+id/lazer"
+                android:checked="true"
+                android:text="@string/nova_viagem_rd_lazer"
+                android:textColor="@android:color/black"/>
+            
+        	    <RadioButton 
+                android:id="@+id/negocios"
+                android:layout_marginLeft="30dp"
+                android:text="@string/nova_viagem_rd_negocios"
+                android:textColor="@android:color/black"/>
+            
+        </RadioGroup>
+        
+        <TableRow>
+            
+            <TextView 
+                android:layout_gravity="center"
+                android:text="@string/nova_viagem_lbl_data_chegada"
+                android:textColor="@android:color/black"/>
+            
+            <TextView 
+                android:layout_gravity="center"
+                android:text="@string/nova_viagem_lbl_data_saida"
+                android:textColor="@android:color/black"/>
+            
+        </TableRow>
+	    
+        <TableRow>
+            
+            <Button 
+                android:id="@+id/dataChegada"
+                android:onClick="selecionarData"
+                android:text="@string/btnDtChegada"/>
+            
+           	<Button
+           	    android:id="@+id/dataSaida"
+           	    android:onClick="selecionarData"
+           	    android:text="@string/btnDtSaida"/>
+            
+        </TableRow>
+        
+        <TextView android:text="@string/nova_viagem_lbl_orcamento"
+            android:textColor="@android:color/black"/>
+        
+        <EditText 
+            android:id="@+id/orcamento"
+            android:inputType="numberDecimal"/>
+        
+        <TableRow>
+            
+            <TextView 
+                android:layout_width="wrap_content"
+                android:text="@string/nova_viagem_lbl_qtde_pessoas"
+                android:textColor="@android:color/black"/>
+            
+            <EditText 
+                android:id="@+id/quantidadePessoas"
+                android:inputType="number"/>
+            
+        </TableRow>
+        
+        <Button 
+            android:id="@+id/btnSalvar"
+            android:onClick="salvarViagem"
+            android:text="@string/nova_viagem_btn_salvar"/>
+        
+    </TableLayout>
+
+</ScrollView>

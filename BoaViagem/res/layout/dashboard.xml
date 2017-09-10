@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF" 
+    android:orientation="vertical">
+    
+    
+    <LinearLayout 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#015488"
+            android:orientation="vertical">
+            
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:textColor="@android:color/white"
+	        android:text="@string/dashboard_lbl_titulo"
+	        android:textAppearance="?android:attr/textAppearanceLarge"/>
+	    
+    </LinearLayout>
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teste de Progress"
+        android:onClick="openProgress"/>
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contatos"
+        android:onClick="openContacts"/>
+    
+    <Button 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Testes"
+        android:onClick="openTestes"/>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TextView 
+            android:id="@+id/novo_gasto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher"
+            android:onClick="selecionarOpcao"
+            android:text="@string/dashboard_lbl_novo_gasto"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        
+        <TextView 
+            android:id="@+id/nova_viagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/novo_gasto"
+            android:layout_marginRight="50dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_launcher"
+            android:onClick="selecionarOpcao"
+            android:text="@string/dashboard_lbl_nova_viagem"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+        
+        <TextView
+			android:id="@+id/minhas_viagens"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignLeft="@id/novo_gasto"
+			android:layout_alignParentBottom="true"
+			android:layout_marginBottom="120dp"
+			android:clickable="true"
+			android:drawableTop="@drawable/ic_launcher"
+			android:onClick="selecionarOpcao"
+			android:text="@string/dashboard_lbl_minhas_viagens"
+			android:textColor="@android:color/black"
+			android:textStyle="bold" />
+			
+			
+		<TextView
+			android:id="@+id/configuracoes"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_alignBottom="@id/minhas_viagens"
+			android:layout_alignRight="@id/nova_viagem"
+			android:clickable="true"
+			android:drawableTop="@drawable/ic_launcher"
+			android:onClick="selecionarOpcao"
+			android:text="@string/dashboard_lbl_configuracoes"
+			android:textColor="@android:color/black"
+			android:textStyle="bold" />
+        
+    </RelativeLayout>
+    
+
+</LinearLayout>

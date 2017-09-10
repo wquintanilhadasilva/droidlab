@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button 
+        android:id="@+id/btnBarra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showBarra"
+        android:text="Barras"/>
+    
+    <Button 
+        android:id="@+id/btnLinha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showLinha"
+        android:text="Linhas"/>
+    
+     <Button 
+        android:id="@+id/btnFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showFrame"
+        android:text="FrameLayout"/>
+     
+     <Button 
+        android:id="@+id/btnSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showSearchView"
+        android:text="SearchView"/>
+     
+     <Button 
+        android:id="@+id/btnWebServer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="showServer"
+        android:text="WebServer"/>
+    
+    <LinearLayout android:id="@+id/grafico" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+    
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<resources>
+
+    <string name="app_name">BoaViagem</string>
+    <string name="desc_logo_login">Controle de Viagens</string>
+    
+    <string name="login_lbl_usuario">Usuário</string>
+    <string name="login_lbl_senha">Senha</string>
+    <string name="login_btn_entrar">Entrar</string>
+    <string name="login_msg_erro_autenticacao">Erro de autenticação, dados incorretos!</string>
+    
+    <string name="dashboard_lbl_titulo">Início</string>
+    <string name="dashboard_lbl_novo_gasto">Novo Gasto</string>
+    <string name="dashboard_lbl_nova_viagem">Nova Viagem</string>
+    <string name="dashboard_lbl_minhas_viagens">Minhas Viagens</string>
+    <string name="dashboard_lbl_configuracoes">Configurações</string>
+    <string name="dasboard_sair">Sair</string>
+    
+    <string name="nova_viagem">Nova Viagem</string>
+    <string name="nova_viagem_lbl_destino">Destino</string>
+    <string name="nova_viagem_lbl_tipo_da_viagem">Tipo da Viagem</string>
+    <string name="nova_viagem_rd_lazer">Lazer</string>
+    <string name="nova_viagem_rd_negocios">Negócios</string>
+    <string name="nova_viagem_lbl_data_saida">Data da Saída</string>
+    <string name="nova_viagem_lbl_data_chegada">Data da Chegada</string>
+    <string name="btnDtChegada">Data Chegada</string>
+    <string name="btnDtSaida">Data Saída</string>
+    <string name="nova_viagem_lbl_orcamento">Orçamento</string>
+    <string name="nova_viagem_lbl_qtde_pessoas">Qtde Pessoas</string>
+    <string name="nova_viagem_btn_salvar">Criar nova viagem</string>
+    <string name="alterar_viagem_btn_salvar">Modificar viagem</string>
+    
+    <string name="gasto_lbl_title">Novo Gasto</string>
+    <string name="gasto_lbl_viagem">Viagem</string>
+    <string name="gasto_lbl_valor">Valor</string>
+    <string name="gasto_lbl_data">Data</string>
+    <string name="gasto_btnData">Selecione</string>
+    <string name="gasto_lbl_descricao">Descrição</string>
+    <string name="gasto_lbl_local">Local</string>
+    <string name="gasto_btn_gravar">Novo gasto</string>
+    <string name="gasto_lbl_categoria">Categoria</string>
+    <string-array name="categoria_gasto">
+        <item>Alimentação</item>
+        <item>Combustível</item>
+        <item>Diversão</item>
+        <item>Hospedagem</item>
+        <item>Transporte</item>
+        <item>Outros</item>
+    </string-array>
+    
+    <string name="lst_viag_img">Tipo da Viagem</string>
+    <string name="lst_viag_titulo">Viagens Realizadas</string>
+    
+    <string name="ver_gastos">Ver Gastos</string>
+    
+    <string name="menu_novo">Novo</string>
+    <string name="editar">Editar</string>
+    <string name="menu_remover">Remover</string>
+    <string name="menu_cancelar">Cancelar</string>
+    <string name="opcoes">Opções</string>
+
+    <string name="menu_sim">Sim</string>
+    <string name="menu_nao">Não</string>
+    <string name="menu_titulo_exclusao">Tem certeza que deseja excluir o item selecionado?</string>
+    <string name="menu_confirm_exclusao">Item excluído com sucesso!</string>
+    
+    <string name="preferencias">Configuração geral do sistema</string>
+    <string name="preferencias_login">Login</string>
+    <string name="pref_manter_logado">Manter logado</string>
+    <string name="pref_manter_logado_summ">Manter o sistema logado</string>
+    <string name="modo_viagem_sumario">Determina a viagem ativa com base na data atual</string>
+    <string name="modo_viagem_titulo">Modo Viagem</string>
+    <string name="alerta_gastos">Notifica quando os gastos ultrapassarem o percentual informado</string>
+    <string name="alerta_gastos_titulo">Alerta de gastos</string>
+    <string name="lbl_percentual_limite_gasto">Informe o valor limite (em %)</string>
+    
+    <string name="erro_salvar">Erro ao gravar os dados!</string>
+    <string name="registro_salvo">Dados gravados com sucesso!</string>
+    
+    <string name="Aguarde">Aguarde</string>
+    <string name="lista_contatos">Contatos do Telefone</string>
+    <string name="ok">OK</string>
+    
+</resources>

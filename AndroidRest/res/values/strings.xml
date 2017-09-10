@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Android Rest</string>
+    
+    <string name="buscar">Buscar</string>
+    
+    <string name="aguarde">Aguarde</string>
+    
+    <string name="abrir">Abrir</string>
+
+</resources>

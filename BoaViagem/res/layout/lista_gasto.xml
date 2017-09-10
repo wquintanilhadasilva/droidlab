@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    
+    <TextView 
+        android:id="@+id/lst_gasto_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@color/titulo"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    
+    <LinearLayout 
+        android:id="@+id/lst_gasto_categoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <TextView
+            android:id="@+id/lst_gasto_descricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"/>
+        
+        <TextView
+            android:id="@+id/lst_gasto_valor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"/>
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="@string/preferencias">
+        
+    	<CheckBoxPreference 
+    	    android:key="modo_viagem"
+    	    android:summary="@string/modo_viagem_sumario"
+    	    android:title="@string/modo_viagem_titulo"/>
+    	
+    	<EditTextPreference 
+    	    android:key="valor_limite"
+    	    android:dialogTitle="@string/lbl_percentual_limite_gasto"
+    	    android:defaultValue="80"
+    	    android:summary="@string/alerta_gastos"
+    	    android:title="@string/alerta_gastos_titulo"/>
+    	
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/preferencias_login">
+        
+        <CheckBoxPreference 
+            android:key="manter_conectado"
+            android:summary="@string/pref_manter_logado_summ"
+            android:title="@string/pref_manter_logado"/>
+        
+    </PreferenceCategory>
+
+</PreferenceScreen>
